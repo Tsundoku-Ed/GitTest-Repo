@@ -1,0 +1,39 @@
+body {
+  margin: 50px;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  border-style: solid;
+  border-color: black;
+  margin-top: -100px;
+}
+h1 {
+  font-size: 30px;
+  color: rgb(31 , 25, 25);
+}
+#todays-challange {
+  color: rgb(75, 59, 59);
+  font-weight: bold;
+  font-size: 52px;
+}
+main{
+  border-color: black;
+  background-color: rgb(235, 65, 13);
+  border-radius: 50px;
+  border-width: 50px;
+  border: 3px;
+  padding: 0px 20px 30px 20px;
+  margin: 150px auto 50px auto;
+  display: block;
+  border-style: solid;
+  width: 800px;
+  box-shadow: 1px 2px 8px rgba(0,0,0,0.3);
+}
+span{
+  color:rgb(66, 2, 2)
+}
+a{
+  color: rgb(73,29,50);
+}

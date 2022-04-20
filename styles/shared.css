@@ -1,0 +1,25 @@
+body {
+  background-color: rgb(243, 204, 157);
+  text-align: center;
+  font-family: "oswald";
+}
+h1{
+  font-family: "Tourney";
+}
+a {
+  color: rgb(90, 92, 83);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+header p {
+  margin-bottom: 36px;
+}
+h2 {
+  color: rgb(241, 20, 20);
+  font-family: "oswald", sans-serif;
+}
+p{
+  font-size: 24px;
+}

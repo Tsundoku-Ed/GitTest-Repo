@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles/basics-summary.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML & CSS Basics Summary</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML & CSS Basics Summary</h1>
+      <img src="images/html-css.png" alt="html and css logo" />
+    </header>
+    <main>
+      <section>
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (HyperText Markup Language) is used to define our page content,
+          structure and meaning. You
+          <strong id="hypertext-bold">dont</strong> use it for styling purposes.
+          Use CSS for that Instead.
+        </p>
+        <ol>
+          <li class="list-highlight">
+            HTML uses "elements" to describe (annotate) content
+          </li>
+          <li>
+            HTML elements typically have an opening tag, content and then a
+            closing tag
+          </li>
+          <li class="list-highlight">
+            You can also have a void (empty) elements like images
+          </li>
+          <li class="list-highlight">
+            You can also conigure elements with attributes
+          </li>
+          <li>There's a long list of available elements but you</li>
+        </ol>
+        <p>
+          Learn more about all available HTML elements on
+          <a class="mdm-link" href="https://developer.mozilla.org/en-US/docs">
+            the MDN HTML element reference
+          </a>
+        </p>
+      </section>
+      <section>
+        <h2>CSS Summary</h2>
+        <p>
+          CSS (cascading Style Sheets) is used for styling your pages content.
+        </p>
+        <ol>
+          <li>Styles are asigned via property value pairs</li>
+          <li>You can assign styles via the 'style' attribute</li>
+          <li class="list-highlight">
+            To avoid code duplication, you typically use global styles (e.g. via
+            the 'style' element) instead.
+          </li>
+          <li>
+            Alternativly, you can work with external stylesheet files which you
+            'link' to
+          </li>
+          <li class="list-highlight">
+            When working with CSS concepts like "inheritance", "specificicity"
+            and the "box model" should be understood
+          </li>
+        </ol>
+        <p>
+          Learn more about all available HTML elements on
+          <a class="mdm-link" href="https://developer.mozilla.org/en-US/docs"
+            >the MDN HTML element reference
+          </a>
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a
+        id="download-pdf"
+        href="files/html-css-basics-summary.pdf"
+        target="_blank"
+        >Download PDF Summary</a
+      >
+      <p class="website-author">Edward Spencer, 2022</p>
+    </footer>
+  </body>
+</html>

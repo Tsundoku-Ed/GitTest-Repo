@@ -1,0 +1,38 @@
+h1 {
+  font-size: 48px;
+  color: rgb(71, 62, 62);
+}
+
+a {
+  background-color: rgb(252, 0, 0);
+  text-decoration: none;
+  border-radius: 40px;
+  font-size: 24px;
+  padding: 12px 48px;
+  display: inline-block;
+  margin-bottom: 30px;
+  margin: 50px;
+  border-radius: 4px;
+  color: chartreuse;
+}
+a:hover {
+  text-decoration: none;
+  background-color: brown;
+}
+ul {
+  list-style-type: none;
+  padding: 0px 200px;
+}
+li {
+  background-color: rgb(168, 124, 69);
+  margin: 30px;
+  border-radius: 20px;
+  padding: 30px;
+  display: list-item;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.highlight-goal {
+  background-color: rgb(231, 89, 7);
+  color: rgb(236, 176, 10);
+  margin-bottom: 50;
+}
